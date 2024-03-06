@@ -16,4 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
       collapseMenu.classList.add("hidden");
     }
   });
+  document.querySelector("#login").addEventListener("submit", function (e) {
+    e.preventDefault();
+    window.location.href = "/dashboard.html";
+  });
 });
